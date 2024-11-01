@@ -1,7 +1,7 @@
 import tkinter as tk
 from views.product_view import ProductView
 from views.sales_view import SalesView
-from views.reports_view import ReportView
+from views.reports_view import ReportsView
 
 class MainView(tk.Frame):
     def __init__(self, master = None):
