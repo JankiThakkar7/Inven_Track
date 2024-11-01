@@ -1,0 +1,35 @@
+# Ignore the SQLite database file (local database storage)
+data/inventory.db
+
+# Ignore Python bytecode and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments (if using a local virtual environment)
+venv/
+*.venv/
+env/
+*.env/
+
+# Ignore any local configuration/environment files
+.env
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files or editor swap files (e.g., from Vim)
+*.swp
+*.swo
+
+# Cache folder under assets (if you create or use any cached assets)
+assets/cache/
